@@ -76,6 +76,13 @@ export default function RootLayout({
           <iframe
             src="https://my.spline.design/animatedbackgroundgradientforweb-hd11sYR7BunVgWa2z1eM3nQl/"
             className="w-full h-full"
+            loading="lazy"
+            allow="autoplay; fullscreen"
+            style={{
+              pointerEvents: "none",
+              border: "none",
+              filter: "blur(2px)",
+            }}
           />
         </div>
 
