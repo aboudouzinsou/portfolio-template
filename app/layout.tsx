@@ -3,6 +3,7 @@ import { Poppins, Sora } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import Background from "@/components/background";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -72,20 +73,7 @@ export default function RootLayout({
           fontFamily: "var(--font-poppins)",
         }}
       >
-        <div className="fixed inset-0 -z-10 opacity-30">
-          <iframe
-            src="https://my.spline.design/animatedbackgroundgradientforweb-hd11sYR7BunVgWa2z1eM3nQl/"
-            className="w-full h-full"
-            loading="lazy"
-            allow="autoplay; fullscreen"
-            style={{
-              pointerEvents: "none",
-              border: "none",
-              filter: "blur(2px)",
-            }}
-          />
-        </div>
-
+        <Background />
         <Navbar />
         <main>{children}</main>
         <Footer />
