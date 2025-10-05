@@ -28,8 +28,9 @@ const Hero = () => {
         </h1>
         <p className="mt-6 text-[17px] md:text-lg">
           Développeur Full Stack spécialisé dans la création de plateformes SaaS
-          et d'applications web performantes. De l'e-commerce aux systèmes de
-          gestion, je livre des solutions modernes qui font la différence. 🚀
+          et d&apos;applications web performantes. De l&apos;e-commerce aux
+          systèmes de gestion, je livre des solutions modernes qui font la
+          différence. 🚀
         </p>
         <div className="mt-12 flex items-center justify-center gap-4">
           <Button

@@ -181,13 +181,13 @@ const Projects = () => {
     {
       title: "Eazy FeedbackLite - Collecte de Feedbacks IA",
       description:
-        "Application de collecte et d'analyse de feedbacks clients utilisant l'IA pour générer des recommandations actionnables.",
+        "Application de collecte et d&apos;analyse de feedbacks clients utilisant l&apos;IA pour générer des recommandations actionnables.",
       challenge:
-        "Transformer les retours clients bruts en insights exploitables grâce à l'analyse automatisée par IA.",
+        "Transformer les retours clients bruts en insights exploitables grâce à l&apos;analyse automatisée par IA.",
       impact: [
         "Analyse automatique des feedbacks par IA",
         "Recommandations personnalisées",
-        "Dashboard d'insights en temps réel",
+        "Dashboard d&apos;insights en temps réel",
       ],
       image: "/projets/feedbacklite.png",
       technologies: [
@@ -206,7 +206,7 @@ const Projects = () => {
       description:
         "Portfolio de landing pages créées pour divers clients et projets, optimisées pour la performance et la conversion.",
       challenge:
-        "Créer des pages d'atterrissage qui convertissent les visiteurs en clients tout en maintenant d'excellentes performances.",
+        "Créer des pages d&apos;atterrissage qui convertissent les visiteurs en clients tout en maintenant d&apos;excellentes performances.",
       impact: [
         "Scores Lighthouse > 90/100",
         "Design moderne et responsive",
