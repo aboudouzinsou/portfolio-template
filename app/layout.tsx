@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Background from "@/components/background";
+import { WhatsAppChat } from "@/components/whatsapp-chat";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -75,7 +76,13 @@ export default function RootLayout({
       >
         <Background />
         <Navbar />
-        <main>{children}</main>
+        <main>
+          {children}
+          <WhatsAppChat
+            phoneNumber="22947876843"
+            message="Bonjour François, je viens de votre portfolio et je souhaite discuter d'un projet."
+          />
+        </main>
         <Footer />
       </body>
     </html>

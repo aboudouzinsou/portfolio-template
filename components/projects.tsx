@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Sparkles } from "lucide-react";
 import Image from "next/image";
 import { GithubLogo } from "./icons";
+import Contact from "./contact";
 
 interface ProjectCardProps {
   title: string;
@@ -256,10 +257,7 @@ const Projects = () => {
             page, discutons de comment je peux vous aider à concrétiser votre
             vision.
           </p>
-          <Button size="lg" className="rounded-full">
-            <ExternalLink className="mr-2 h-4 w-4" />
-            Lançons votre projet
-          </Button>
+          <Contact />
         </div>
       </div>
     </section>
