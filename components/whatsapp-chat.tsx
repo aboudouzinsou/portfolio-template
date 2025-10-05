@@ -1,7 +1,7 @@
 // components/whatsapp-chat.tsx
 "use client";
 
-import { MessageCircle, X } from "lucide-react";
+import { X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
