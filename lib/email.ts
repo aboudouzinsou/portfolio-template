@@ -13,7 +13,7 @@ export async function sendContactEmails(data: {
   submissionId: string;
 }) {
   await resend.emails.send({
-    from: "Portfolio <onboarding@resend.dev>", // Changez après vérification du domaine
+    from: "Portfolio <onboarding@resend.dev>",
     to: "aboudouzinsou@yahoo.com",
     subject: `🚀 Nouveau contact : ${data.firstName} ${data.lastName}`,
     html: ` <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
