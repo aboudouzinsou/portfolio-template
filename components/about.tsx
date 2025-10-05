@@ -161,7 +161,7 @@ const About = () => {
     {
       icon: <Layers className="w-5 h-5" />,
       title: "Développement SaaS complet",
-      description: "De l'idée au produit fini en production",
+      description: "De l&apos;idée au produit fini en production",
     },
     {
       icon: <Code2 className="w-5 h-5" />,
@@ -194,8 +194,8 @@ const About = () => {
               Je suis François Mawutô, développeur Full Stack passionné par la
               création de produits digitaux qui résolvent de vrais problèmes. Ma
               spécialité ? Concevoir et développer des SaaS de bout en bout. De
-              l'architecture scalable au déploiement en production, je maîtrise
-              chaque étape du cycle de développement.
+              l&apos;architecture scalable au déploiement en production, je
+              maîtrise chaque étape du cycle de développement.
             </p>
 
             {/* Mon approche */}
@@ -205,12 +205,12 @@ const About = () => {
                 Mon approche
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                J'adopte une méthodologie moderne qui combine expertise
-                technique solide et intégration stratégique de l'IA.
-                L'intelligence artificielle n'est pas un raccourci, mais un
-                outil d'optimisation qui me permet d'accélérer le développement,
-                d'améliorer la qualité du code et de livrer plus rapidement sans
-                compromis.
+                J&apos;adopte une méthodologie moderne qui combine expertise
+                technique solide et intégration stratégique de l&apos;IA.
+                L&apos;intelligence artificielle n&apos;est pas un raccourci,
+                mais un outil d&apos;optimisation qui me permet d&apos;accélérer
+                le développement, d&apos;améliorer la qualité du code et de
+                livrer plus rapidement sans compromis.
               </p>
             </div>
 
